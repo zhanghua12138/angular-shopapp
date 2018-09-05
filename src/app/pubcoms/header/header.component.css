@@ -1,0 +1,43 @@
+/* 页头组件 */
+header{
+    height: 50px;
+    background-color: rgb(200, 17, 24);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+    position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+
+    display: flex;
+}
+
+header>*{
+    line-height: 50px;
+}
+
+header img{
+	width: 24px;
+}
+
+/* 父亲 */
+header nav{
+    position: relative;
+}
+
+/* 子菜单的内容 */
+header #subMenu{
+    font-size: 14px;
+    font-style: normal;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: -46px;
+}
+
+header #subMenu li{
+    border-bottom: dashed 1px #666;
+}

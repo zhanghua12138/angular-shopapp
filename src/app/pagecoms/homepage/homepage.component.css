@@ -1,0 +1,46 @@
+/*公告*/
+#buttin{
+	display: flex;
+	padding: 10px;
+	border-top: solid 1px #f0f0f0;
+	border-bottom: solid 3px #f0f0f0;
+}
+#buttin h5{
+	font-size: 16px;
+	margin-right: 20px;
+	color: rgb(200, 17, 24);
+}
+
+#buttin ul li{
+	background: url(../../../assets/images/li.png) no-repeat 0px 3px;
+	text-indent: 20px;
+}
+
+/* 产品 */
+.productCon{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.productCon div{
+	width: 45%;
+	padding: 15px;
+	padding-bottom: 0px;
+	border: solid 1px #f0f0f0;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.productCon div:hover{
+	border: solid 1px rgb(200, 17, 24);
+}
+
+.productCon div p:nth-of-type(2){
+    font-size: 14px;
+    color: #333;
+}
+
+.productCon div p img{
+   width: 100%;
+}

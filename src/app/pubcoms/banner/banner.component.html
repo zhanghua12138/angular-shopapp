@@ -1,0 +1,9 @@
+<section class="box320" id="banner">
+  <nz-carousel nzAutoPlay>
+    <div nz-carousel-content *ngFor="let item of bannerObj;">
+      <a href="{{item.linkUrl}}" title="{{item.title}}">
+        <img src="{{item.imgUrl}}" alt="{{item.description}}">
+      </a>
+    </div>
+  </nz-carousel>
+</section>

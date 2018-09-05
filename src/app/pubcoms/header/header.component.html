@@ -1,0 +1,24 @@
+<!-- 页头 -->
+<header>
+  <div class="box320" nz-row>
+     <!-- 主菜单 -->
+     <nav nz-col nzSpan="3">
+         <img (click)="isShow=!isShow" src="assets/images/ICON_menu.png"/>
+         <ul id="subMenu" *ngIf="isShow">
+           <li>1子菜单</li>
+           <li>2子菜单</li>
+           <li>3子菜单</li>
+           <li>4子菜单</li>
+           <li>5子菜单</li>
+           <li>6子菜单</li>
+           <li>7子菜单</li>
+           <li>8子菜单</li>
+         </ul>
+     </nav>
+     <!-- 商城名称 -->
+     <div nz-col nzSpan="18">乐购移动商城</div>
+     <!-- 搜索 -->
+     <div nz-col nzSpan="3"><img src="assets/images/ICON_search.png"/></div>
+   </div>   
+</header>
+<section class="marginB50"></section>

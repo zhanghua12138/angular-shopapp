@@ -1,0 +1,28 @@
+.box320,header,footer{
+    max-width: 414px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+/* 底部maring */
+.marginB50{
+    margin-bottom: 50px
+}
+
+/*公共标题*/
+.commonTitle h5{
+	font-size: 16px;
+	padding: 10px;
+	border-bottom: solid 3px #f0f0f0;
+	color: #000;
+	text-align: center;
+}
+
+/*套在父元素上面*/
+.clear:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}

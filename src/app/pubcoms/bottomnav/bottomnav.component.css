@@ -1,0 +1,27 @@
+/*页脚的固定菜单*/
+#bottomFixMenu{
+	border-top: rgb(200, 17, 24) solid 1px;
+	height: 58px;
+	background-color: #fafafa;
+	
+	position: fixed;
+	bottom: -5px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+	padding: 3px 0px;
+}
+
+#bottomFixMenu li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+#bottomFixMenu li a{
+	color: #999;
+}
+
+#bottomFixMenu li img{
+	width: 28px;
+}

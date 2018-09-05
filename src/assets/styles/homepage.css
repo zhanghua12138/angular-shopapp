@@ -1,0 +1,7 @@
+/* 页头组件 */
+header{
+    height: 50px;
+    background-color: rgb(200, 17, 24);
+
+    display: flex;
+}
